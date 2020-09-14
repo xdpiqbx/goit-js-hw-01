@@ -1,4 +1,4 @@
-console.group(" -=-=-=-=- Задание 3 -=-=-=-=- ")
+//console.group(" -=-=-=-=- Задание 3 -=-=-=-=- ")
 /*
 Напиши скрипт имитирующий авторизацию администратора в панели управления.
 
@@ -12,17 +12,17 @@ console.group(" -=-=-=-=- Задание 3 -=-=-=-=- ")
 записать в message строку 'Доступ запрещен, неверный пароль!'
 После всех проверок вывести в alert значение переменной message.
 */
+//console.log("Для запуска скрипта раскомментируйте стоки 19 (prompt) и 27 (alert)")
+// let message = "";
 
-const ADMIN_PASSWORD = 'jqueryismyjam';
-let message = "";
-console.log("Для запуска скрипта раскомментируйте стоки 19 (prompt) и 27 (alert)")
-//message = prompt("Введите пароль")
-if (message === null){
-    message = "Отменено пользователем!"
-}else if(message === ADMIN_PASSWORD){
-    message = 'Добро пожаловать!'
-}else{
-    message = 'Доступ запрещен, неверный пароль!'
-}
-//alert(message)
-console.groupEnd()
+// const ADMIN_PASSWORD = 'jqueryismyjam';
+// //message = prompt("Введите пароль")
+// if (message === null){
+//     message = "Отменено пользователем!"
+// }else if(message === ADMIN_PASSWORD){
+//     message = 'Добро пожаловать!'
+// }else{
+//     message = 'Доступ запрещен, неверный пароль!'
+// }
+// //alert(message)
+// console.groupEnd()
